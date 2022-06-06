@@ -1,5 +1,11 @@
 # MultipleOJCheck
-This PowerShell Core 7 Script will handle all the input and output redirection for CoE164 OJ
+This PowerShell Core 7 Script will handle all the input and output redirection for CoE164 OJ assuming that you are using the commands
+
+```powershell
+PS> $OutputEncoding = [Console]::OutputEncoding = (New-Object System.Text.UTF8Encoding $false)
+PS> $env:PYTHONIOENCODING = "utf-8"
+PS> Get-Content in | python3 coe164_cp.py | Out-File out
+```
 
 # How to use
 
