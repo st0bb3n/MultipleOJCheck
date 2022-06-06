@@ -25,9 +25,8 @@ Run PowerShell Core 7 in the same folder (or cd to it) and run the command
 ```PowerShell
 ./run.ps1
 ```
-<br />
 ![image](https://user-images.githubusercontent.com/52521318/172127076-6d87b386-0a9b-419c-8faa-8a5881615d05.png)
-
+<br />
 
 Step 4:
 Output files should appear.
